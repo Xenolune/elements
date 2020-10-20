@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Prostitute</name>
+		<description>Prostitute Background</description>
+		<author url="">Nerd Fairchild</author>
+		<update version="0.0.1">
+			<file name="background-prostitute.xml" url="https://github.com/NerdFairchild/prostitute-background.git" />
+		</update>
+	</info>
+
+	<element name="Prostitute" type="Background" source="Nerd Fairchild" id="ID_BACKGROUND_PROSTITUTE">
+		<description>
+			<p>You are gifted in seduction and have been able to make a successful career for yourself. No matter the town or city, you can always find a noble who's willing to pay for your companionship. You're able to keep your head clear even when your customers are blinded by lust. </p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Insight, Persuasion</li>
+				<li><strong>Tool Proficiencies:</strong> Disguise kit, one type of gaming set and one type of musical instrument of your choice.</li>
+				<li><strong>Equipment:</strong> A set of seductive fine clothes, the favor of an admirer (love letter, lock of hair, or trinket), a disguise kit, and a pouch containing 15 gp.</li>
+			</ul>
+			<h5>Preferred Clients</h5>
+			<p>Money is money. It doesn't matter where it comes from, but sometimes you tend to gravitate to a certain type of patron. This could be because you find them easy to charm, or you find them the most pleasurable to do business with.</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">d8</td><td>Preferred Clients</td></tr>
+				</thead>
+				<tr><td>1</td><td>Artisans</td></tr>
+				<tr><td>2</td><td>Clergy</td></tr>
+				<tr><td>3</td><td>Entertainers</td></tr>
+				<tr><td>4</td><td>Farmers</td></tr>
+				<tr><td>5</td><td>Merchants</td></tr>
+				<tr><td>6</td><td>Nobles</td></tr>
+				<tr><td>7</td><td>Sailors</td></tr>
+				<tr><td>8</td><td>Soldiers</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_PILLOWTALK" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Anyone can be a prostitute, but the best gain their reputation from their charm, and from their skills in the bedroom. They're often quite friendly with all types of people, and they understand the value of friendship, love, beauty, and secrets.</p>
+		</description>
+		<setters>
+			<set name="short">Insight, Persuasion, Gaming Set, Musical Intrument, Disguise kit</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<select type="Proficiency" name="Gaming Set (Prostitute)" supports="Gaming Set" />
+			<select type="Proficiency" name="Musical Intrument (Prostitute)" supports="Musical Instrument" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_PILLOWTALK" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="List" name="Preferred Clients" optional="true">
+				<item id="1">Artisans</item>
+				<item id="2">Clergy</item>
+				<item id="3">Entertainers</item>
+				<item id="4">Farmers</item>
+				<item id="5">Merchants</item>
+				<item id="6">Nobles</item>
+				<item id="7">Sailors</item>
+				<item id="8">Soldiers</item>
+			</select>
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I only speak kindly to potential clients. I'm quite cold with others.</item>
+				<item id="2">I'm very competitive, which sometimes leads me to pushing my body to its limits.</item>
+				<item id="3">I don't complain if I'm bothered by something or something hurts. My problems are my own.</item>
+				<item id="4">I find people fascinating, so I spend as much time around them as possible.</item>
+				<item id="5">I'm not interested in any kind of small-talk or foreplay; I prefer to be as direct as possible.</item>
+				<item id="6">I act and speak as if I'm on a stage all the time. </item>
+				<item id="7">I can get embarrassed easily and don't bring up anything sexual when I'm not with clients.</item>
+				<item id="8">I'm very easy-going, I can even discuss my profession in detail without getting embarrassed.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Companionship. I love my job because I can help those who are lonely. (Good)</item>
+				<item id="2">Pleasure. I love to share my body with the world, just as much as I like to enjoy the beauty of others. (Any)</item>
+				<item id="3">Power. I use my patrons and my charm to get what I want and to get rid of my competitors. (Evil)</item>
+				<item id="4">Independence. I work for myself and not for somebody else. (Chaotic)</item>
+				<item id="5">Public Service. I wear my profession as a badge of pride, as it helps to avoid sexual crimes. (Lawful)</item>
+				<item id="6">Variety. I never sleep with the same person twice. (Chaotic)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I feel a strong kinship to others in my profession.</item>
+				<item id="2">I love my family, but they don't want to see me because of my profession. I wish they would know why I'm doing this.</item>
+				<item id="3">I once had an amazing night with a client. The same client later became my fiance.</item>
+				<item id="4">The owner of the brothel gave me shelter when I needed it. Now I do everything I can to make him or her proud.</item>
+				<item id="5">A stranger introduced me to this profession to help me regain control in my life, and I desperately want to find them again to thank them.</item>
+				<item id="6">Somewhere out there I have a child who doesn't know me. I'm trying to make the world better for him or her.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I'll do anything for enough money.</item>
+				<item id="2">I can't resist a pretty face.</item>
+				<item id="3">I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in. </item>
+				<item id="4">Flattery is the easiest way for others to get something from me.</item>
+				<item id="5">I try to avoid ugly people as much as I can.</item>
+				<item id="6">I love to do business with married clients, so I can always boast to their spouse about it.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: Pillowtalk" type="Background Feature" source="Nerd Fairchild" id="ID_BACKGROUND_FEATURE_PILLOWTALK">
+		<supports>Background Feature</supports>
+		<description>
+			<p>You are very good at making your customers tell all of their secrets to you. If you successfully sell your services to a patron, you are able to get to know their secrets. After the act you can ask one question from your patron and the customer must answer honestly. This question is simply seen as a normal question in a normal conversation by your customer and does not arouse suspicion. If you don't ask a specific question you get to know three secrets of your patron. The customer still will be honest with you but the secrets will be randomly selected by your DM.</p>
+		</description>
+		<sheet alt="Pillowtalk">
+			<description>You are very good at making your customers tell all of their secrets to you. If you successfully sell your services to a patron, you are able to get to know their secrets. After the act you can ask one question from your patron and the customer must answer honestly. This question is simply seen as a normal question in a normal conversation by your customer and does not arouse suspicion. If you don't ask a specific question you get to know three secrets of your patron. The customer still will be honest with you but the secrets will be randomly selected by your DM.</description>
+		</sheet>
+	</element>
+</elements>

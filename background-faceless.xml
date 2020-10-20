@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Faceless</name>
+		<description>Faceless Background</description>
+		<author url="http://dnd5e.wikidot.com/background:faceless">DnD5e Wiki</author>
+		<update version="0.0.5">
+			<file name="background-faceless.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Faceless" type="Background" source="DnD5e Wiki" id="ID_DND5E_WIKI_BACKGROUND_ACOLYTE">
+		<description>
+			<p>Being who you are, you could never be a hero. Whether due to your class, your people, your family, or your sins, something about you prevents you from effectively pursuing the path you've chosen. Even so, that doesn't stop you. You've left your old face behind, taking on a new persona, becoming something more.</p>
+			<p class="indent">Characters with the faceless background don a disguise—literally or otherwise—as they adventure. This persona might be dramatic or subtle. In a way, though, many characters have such larger than life personalities. Therefore, this background largely focuses on detailing the hero behind the mask.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong>Deception, Intimidation</li>
+				<li><strong>Languages:</strong>Disguise Kit</li>
+				<li><strong>Equipment:</strong>A disguise kit, a costume, a pouch containing 10 gp</li>
+			</ul>
+			<div element="ID_DND5E_WIKI_BACKGROUND_FEATURE_FACELESS_PERSONA" />
+			<div element="ID_DND5E_WIKI_BACKGROUND_FEATURE_DUEL_PERSONALITIES" />
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>A faceless character usually plays their persona—the hero or extraordinary person they are every day. That's all a facade, though, or a part of them expressed to an extreme. To define a persona, feel free to choose characteristics from other backgrounds, particularly folk hero, hermit, or noble. For the person behind the persona, the one who truly strives to be faceless, consider a distinct set of faceless characteristics. As a result, those with this background have two sets of characteristics, one for their persona, and one for their faceless selves.</p>
+		</description>
+		<setters>
+			<set name="short">Insight, Religion, 2 Languages</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+			<select type="Language" name="Language (Faceless)" number="1" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_DND5E_WIKI_BACKGROUND_FEATURE_FACELESS_PERSONA" />
+			<grant type="Background Feature" id="ID_DND5E_WIKI_BACKGROUND_FEATURE_DUEL_PERSONALITIES" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I'm earnest and uncommonly direct.</item>
+				<item id="2">I strive to have no personality—it's easier to forget what's hardly there.</item>
+				<item id="3">I treasure a memento of a person or instance that set me upon my path.</item>
+				<item id="4">I sleep just as much as I need to and on an unusual schedule.</item>
+				<item id="5">I think far ahead, a detachedness often mistaken for daydreaming.</item>
+				<item id="6">I cultivate a single obscure hobby or study and eagerly discuss it at length.</item>
+				<item id="7">I am ever learning how to be among others—when to stay quiet, when to laugh.</item>
+				<item id="8">I behave like an extreme opposite of my persona.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Justice. Place in society shouldn't determine one's access to what is right. (Good)</item>
+				<item id="2">Security. Doing what must be done can't bring the innocent to harm. (Lawful)</item>
+				<item id="3">Confusion. Deception is a weapon. Strike from where your foes won't expect. (Chaotic)</item>
+				<item id="4">Infamy. My name will be a malediction, a curse that fulfills my will. (Evil)</item>
+				<item id="5">Incorruptibility. Be a symbol, and leave your flawed being behind. (Any)</item>
+				<item id="6">Anonymity. It's my deeds that should be remembered, not their instrument. (Any)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I do everything for my family. My first thought is keeping them safe.</item>
+				<item id="2">What I do, I do for the world. The people don't realize how much they need me.</item>
+				<item id="3">I've seen too many in need. I must not fail them as everyone else has.</item>
+				<item id="4">I stand in opposition, lest the wicked go unopposed.</item>
+				<item id="5">I am exceptional. I do this because no one else can, and no one can stop me.</item>
+				<item id="6">	I do everything for those who were taken from me.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I an callous about death. It comes to us all eventually.</item>
+				<item id="2">I never make eye contact or hold it unflinchingly.</item>
+				<item id="3">I have no sense of humor. Laughing is uncomfortable and embarrassing.</item>
+				<item id="4">I overexert myself, sometimes needing to recuperate for a day or more.</item>
+				<item id="5">I think far ahead, a detachedness often mistaken for daydreaming.</item>
+				<item id="6">I see morality entirely in black and white.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Feature: Faceless Persona" type="Background Feature" source="DnD5e Wiki" id="ID_DND5E_WIKI_BACKGROUND_FEATURE_FACELESS_PERSONA">
+		<supports>Background Feature</supports>
+		<description>
+			<p>A faceless character adventures behind a mask of a public persona. This persona is as natural to them as their hidden, true face, but it disguises their identity. Roll on the Faceless Persona table to determine your persona, or work with the DM to create a persona that's unique to your character and suits the tone of your game.</p>
+		</description>
+		<sheet />
+		<rules>
+		<select type="List" name="Faceless Persona">
+			<item id="1">A flamboyant spy or brigand</item>
+			<item id="2">The incarnation of a nation or people</item>
+			<item id="3">A scoundrel with a masked guise</item>
+			<item id="4">A vengeful spirit</item>
+			<item id="5">The manifestation of a deity or your faith</item>
+			<item id="6">One whose beauty is greatly accented using makeup</item>
+			<item id="7">An impersonation of another hero</item>
+			<item id="8">The embodiment of a school of magic</item>
+			<item id="9">A warrior with distinctive armor</item>
+			<item id="10">A disguise with animalistic or monstrous characteristics, meant to inspire fear</item>
+		</select>
+	</rules>
+	</element>
+
+	<element name="Feature: Duel Personalities" type="Background Feature" source="DnD5e Wiki" id="ID_DND5E_WIKI_BACKGROUND_FEATURE_DUEL_PERSONALITIES">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Most of your fellow adventurers and the world know you as your persona. Those who seek to learn more about you—your weakness, your origins, your purpose—find themselves stymied by your disguise. Upon donning a disguise and behaving as your persona, you are unidentifiable as your true self. By removing your disguise and revealing your true face, you are no longer identifiable as your persona. This allows you to change appearances between your two personalities as often as you wish, using one to hide the other or serve as convenient camouflage. However, should someone realize the connection between your persona and your true self, your deception might lose its effectiveness.</p>
+		</description>
+		<sheet>
+			<description>Upon donning a disguise and behaving as your persona, you are unidentifiable as your true self. By removing your disguise and revealing your true face, you are no longer identifiable as your persona. This allows you to change appearances between your two personalities as often as you wish, using one to hide the other or serve as convenient camouflage. However, should someone realize the connection between your persona and your true self, your deception might lose its effectiveness.</description>
+		</sheet>
+		<rules />
+	</element>
+
+</elements>
