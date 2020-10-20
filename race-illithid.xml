@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Illithid" type="Race" source="Homebrew" id="ID_HOMEBREW_RACE_ILLITHID">
+		<description>
+			<p>Voyagers of space, dimensions, and the planes, mind flayers are a scourge to all sentient creatures in every corner of the multiverse.</p>
+			<p class="indent">For specific information concerning illithids, refer to the "Mind Flayers" entries in the <i>5th Edition Monster Manual</i> and <i>Volo's Guide to Monsters</i>. The latter includes excellent options for a mind flayer character, in terms of personality traits, ideals, bonds, and flaws, and information concerning their names, society, culture, enemies, and origins, among other things.</p>
+			<h4>INVASIVE MONSTERS</h4>
+			<p>Illithids received their nickname "mind flayers" from their diet of humanoid brains. Because of this diet, they live in places where they can consistently harvest their favorite food, luring away and picking off the denizens of humanoid settlements. In extreme cases they have been known to take over entire cities, making citizens into thralls and feeding on others.</p>
+			<p class="indent">Mind flayers live in colonies, working together to achieve their twisted ends. Most colonies harbor an elder brain, which commands the entire mind flayer community through incredibly powerful telepathy. Mind flayers under the sway of an elder brain only live for the greater good of their community and elder brain, and hence never become adventurers.</p>
+			<p class="indent">However, some illithids are able to gain their freedom from a community and an elder brain, through myriad ways. The illithid might get far enough away from the elder brain to shake off its telepathic effects, or it might be cast out for the study of the arcane. It might be the sole survivor of an attack that destroyed the elder brain and most of its brethren. Most often, these mind flayers set up lairs for themselves, gather thralls and minions, and continue their work of harvesting humanoid brains. However, some might see the need to become adventurers.</p>
+			<h4>ALIEN AND EVIL REPUTATIONS</h4>
+			<p>No matter the mind flayer's intentions, humanoids of all varieties are certainly going to react violently to a mind flayer within their midst. Playing an illithid character requires compelling bonds and good roleplay, as well as an open mind. You likely won't be able to walk into a settlement to buy goods without raising the alarm in some way.</p>
+			<h4>ILLITHID NAMES</h4>
+			<p>Illithids communicate telepathically, and as such do not typically have spoken names in the way other races might understand them. However they might adopt a name such that allies and minions can address them. For more information about Mind Flayer naming conventions, refer to <i>Volo's Guide to Monsters.</i></p>
+			<p><strong>Names:</strong> Aurangaul, Cephalossk, Drukt, Drusiss, Lugribossk, Quoor, Ralayan, Sardsult, S'venchen, Tharcereli, Tobulux, Zellix</p>
+			<h4>ILLITHID TRAITS</h4>
+			<p>Your illithid character has the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2, and your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Illithids are genderless and don't reproduce through conventional means. Rather, they lay eggs, from which hatch infant illithids that resemble tadpoles. To grow into a mind flayer, a humanoid must be captured and incapacitated, at which point the tadpole is inserted into the skull cavity (usually through the nose or ear). The tadpole devours the victim's brain, and then over the course of 2d6 days, the humanoid transforms into a fully-grown adult mind flayer. After this transformation, the illithid can live for up to about 125 years. Though the mind flayer usually retains vague memories of its previous life, these memories rarely impact its new life.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Because of their steady diet of humanoid brains, illithids are almost always evil. A renegade illithid away from the sway of an elder brain might become neutral, but their nature keeps them from ever becoming good. Their culture's hierarchical structure also pushes them strongly toward law.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Illithids usually stand at about the same height as a human, at anywhere from 5 feet to well over 6 feet.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision</em></strong> Accustomed to life in the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.</p>
+			<p class="indent"><strong><em>Devour Brain</em></strong> As an illithid, humanoid brains make up a large part of your diet. You can survive on other foods, but none of them provide the psychic stimulation that brains do. When you reduce a living creature within 5 feet of you to 0 hit points, you can, as a reaction, devour their brain completely gaining temporary hit points equal to your level + your proficiency bonus. In addition, you may receive the answer to one question that the consumed brain knew the answer to. This creature must have a size of Medium or smaller. Alternatively, as an action, you may consume the brain of a creature that has died within the last minute and gain the same benefits. You regain use of this trait once you complete a long rest. Watching the feast is disturbing and scarring to other humanoids.</p>
+			<p class="indent"><strong><em>Illithid Resilience.</em></strong> You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Deep Speech. You can also read and write Qualith, the special written language of mind flayers. To read it, you must use your tentacles to feel the inscription, reading the psychic imprint left by another illithid. For more information on Qualith, refer to the <i>5th Edition Monster Manual</i> and <i>Volo's Guide to Monsters.</i></p>
+			<p class="indent"><strong><em>Psionics.</em></strong> You know the <i>mage hand</i> cantrip. When you cast the spell using this trait, the hand is invisible. When you reach 3rd level, you can cast the <i>detect thoughts</i> and <i>levitate</i> spells once each with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Mind Blast:</em></strong> Mind flayers often have the ability to magically emit psychic energy. If you deserive this ability, replace the Psionics Trait with the following: You can use your action to emit psychic energy in a 15-foot cone. When you do so, each creature in the area of the blast must make an Intelligence saving throw. The DC for this saving throw equals 8 + your Intelligence modifier + your proficiency bonus. A creature takes 2d6 psychic damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your mind blast, you can't use it again until you finish a short or long rest.</p>
+			<p class="indent"><strong><em>Telepathy.</em></strong> You can communicate telepathically with other creatures you can see within 60 feet of you. You don't need to share a language for it to understand you, as your telepathy takes the form of advanced concepts and associations, which other humanoids interpret in their own language. For more information on Mind Flayer telepathy, refer to <i>Volo's Guide to Monsters.</i></p>
+		</description>
+		<setters>
+			<set name="names" type="construct">Aurangaul, Cephalossk, Drukt, Drusiss, Lugribossk, Quoor, Ralayan, Sardsult, S'venchen, Tharcereli, Tobulux, Zellix</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="2d10">4'8"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" />
+			<stat name="wisdom" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_DEEP_SPEECH" />
+			<grant type="Language" id="ID_HOMEBREW_LANGUAGE_QUALITH" />
+			<grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_ILLITHID_DEVOUR_BRAIN" />
+			<grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_ILLITHID_ILLITHID_RESILIENCE" />
+			<grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_ILLITHID_PSIONICS" />
+			<grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_ILLITHID_TELEPATHY" />
+		</rules>
+	</element>	
+	<element name="Qualith" type="Language" source="Homebrew" id="ID_HOMEBREW_LANGUAGE_QUALITH">
+		<supports>Secret</supports>
+		<description>
+			<p>Qualith is written in four-line stanzas and is so alien in construction that non-illithids must resort to magic to discern its meaning.</p>
+		</description>
+		<setters>
+			<set name="secret">true</set>
+			<set name="speakers">Mind Flayers</set>
+		</setters>
+	</element>
+	<element name="Devour Brain" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_ILLITHID_DEVOUR_BRAIN">
+		<description>
+			<p>When you reduce a living creature within 5 feet of you to 0 hit points, you can, as a reaction, devour their brain completely gaining temporary hit points equal to your level + your proficiency bonus. In addition, you may receive the answer to one question that the consumed brain knew the answer to. This creature must have a size of Medium or smaller. Alternatively, as an action, you may consume the brain of a creature that has died within the last minute and gain the same benefits. You regain use of this trait once you complete a long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Long Rest">
+			<description>When you reduce a living creature within 5 feet of you to 0 hit points, you can, as a reaction, devour their brain completely gaining temporary hit points equal to your level + your proficiency bonus. In addition, you may receive the answer to one question that the consumed brain knew the answer to. This creature must have a size of Medium or smaller. Alternatively, as an action, you may consume the brain of a creature that has died within the last minute and gain the same benefits. You regain use of this trait once you complete a long rest.</description>
+		</sheet>
+	</element>
+    <element name="Illithid Resilience" type="Racial Trait" source="Guildmasters’ Guide to Ravnica" id="ID_HOMEBREW_RACIAL_TRAIT_ILLITHID_ILLITHID_RESILIENCE">
+		<description>
+			<p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</description>
+		</sheet>
+	</element>    
+	<element name="Psionics" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_ILLITHID_PSIONICS">
+		<description>
+			<p>Illithids are psychic creatures, however these psychic abilities can manifest in two different ways. Choose one of the following.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Psionics" supports="Psionics" />
+		</rules>
+	</element>    
+	<element name="Telepathy" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_ILLITHID_TELEPATHY">
+		<description>
+			<p>You can communicate telepathically with other creatures you can see within 60 feet of you. You don't need to share a language for it to understand you, as your telepathy takes the form of advanced concepts and associations, which other humanoids interpret in their own language.</p>
+		</description>
+		<sheet>
+			<description>You can communicate telepathically with other creatures you can see within 60 feet of you. You don't need to share a language for it to understand you, as your telepathy takes the form of advanced concepts and associations, which other humanoids interpret in their own language.</description>
+		</sheet>
+	</element>
+	
+	<element name="Psionic Spellcasting" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_ILLITHID_PSIONICS_SPELLCASTING">
+		<supports>Psionics</supports>
+		<description>
+			<p>You know the <i>mage hand</i> cantrip. When you cast the spell using this trait, the hand is invisible. When you reach 3rd level, you can cast the <i>detect thoughts</i> and <i>levitate</i> spells once each with this trait and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>Dancing Lights. (Spellcasting: Intelligence)</description>
+			<description level="3">1/day Mage Hand, Levitate, and Detect Thoughts. (Spellcasting: Intelligence)</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_LEVITATE" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" level="3" />
+		</rules>
+	</element>
+	<element name="Mind blast" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_ILLITHID_PSIONICS_MIND_BLAST">
+		<supports>Psionics</supports>
+		<description>
+			<p>You can use your action to emit psychic energy in a 15-foot cone. When you do so, each creature in the area of the blast must make an Intelligence saving throw. The DC for this saving throw equals 8 + your Intelligence modifier + your proficiency bonus. A creature takes 2d6 psychic damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your mind blast, you can't use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Short Rest">
+			<description>Emit psychic energy. All creatures in a 15-foot cone must make an Intelligence saving throw. On a failed save, the creature takes {{mind-blast:dice count}}d{{mind-blast:dice}} psychic damage, or half as much on a successful save. The DC for this ability is {{mind-blast:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="mind-blast:dc" value="8" />
+			<stat name="mind-blast:dc" value="intelligence:modifier" />
+			<stat name="mind-blast:dc" value="proficiency" />
+			<stat name="mind-blast:dice size" value="6" bonus="dice" />
+			<stat name="mind-blast:dice count" value="2" level="1" />
+			<stat name="mind-blast:dice count" value="1" level="6" />
+			<stat name="mind-blast:dice count" value="1" level="11" />
+			<stat name="mind-blast:dice count" value="1" level="16" />
+		</rules>
+	</element>
+</elements>
